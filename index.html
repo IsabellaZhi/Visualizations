@@ -1,0 +1,68 @@
+<html>
+<head>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+ 	<script src="https://d3js.org/topojson.v3.min.js"></script>
+    <link rel="shortcut icon" href="#">
+  <style>
+    /* Avoid overflowing text */
+    .answer {
+      width: 500px;
+    }
+    /* Make the gridlines lighter in #7 and #8 */
+    .gridlines line {
+      stroke: #CCC;
+    }
+    /* Hide the domain lines when drawing gridlines for #7 and #8 */
+    .gridlines .domain {
+      display: none;
+    }
+    h5 {
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="answer">
+    <h5 class = "title">the Distribution of Age of Olympic Winners</h5>
+    <svg width="700" height="400" id="olympic" style="border:1px solid #ccc"></svg>
+
+    <!--- Modify 7.js in order to answer this problem --->
+    <script type="text/javascript" src="7.js"></script>
+  </div>
+
+
+  <div class="answer">
+    <h5 class = "title">Performance in the Great British Baking Show by Age Group </h5>
+    <svg width="700" height="400" id="bakeoff" style="border:1px solid #ccc"></svg>
+
+    <!--- Modify 8.js in order to answer this problem --->
+    <script type="text/javascript" src="8.js"></script>
+  </div>
+
+  <div class="answer">
+    <h5>Force-directed Network Diagram Course Dependencies of IS and CS majors at Cornell</h5>
+    <svg width=600 height=600 id="network" style="border:1px solid #eee">
+      <path d="M240,300a60,60 0 1,0 120,0a60,60 0 1,0 -120,0" stroke="#eee" stroke-width=30 fill=none />
+      <path d="M180,300a120,120 0 1,0 240,0a120,120 0 1,0 -240,0" stroke="#eee" stroke-width=30 fill=none />
+      <path d="M120,300a180,180 0 1,0 360,0a180,180 0 1,0 -360,0" stroke="#eee" stroke-width=30 fill=none />
+      <path d="M60,300a240,240 0 1,0 480,0a240,240 0 1,0 -480,0" stroke="#eee" stroke-width=30 fill=none />
+    </svg>
+
+    <!--- Modify 9.js in order to answer this problem --->
+    <script type="text/javascript" src="9.js"></script>
+  </div>
+
+
+  <div class="answer">
+  <h5>Density Map of Artists in Each State</h5>
+    <svg width=900 height=600 id="map" style="border:1px solid #eee"></svg>
+
+    <!--- Modify 10.js in order to answer this problem --->
+    <script type="text/javascript" src="10.js"></script>
+  </div>
+
+
+</body>
+</html>
